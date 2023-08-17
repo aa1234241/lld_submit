@@ -43,7 +43,7 @@ models
     - NPUBXY_fk_1.json
     ...
 ```
-- To reproduce our results, you can conveniently execute the script python ```misc/emsem_result_subtraining.py``` (remember to change the path).
+- To reproduce our results, you can conveniently execute the script  ```python misc/emsem_result_subtraining.py``` (remember to change the path).
 This will automatically generate the final average prediction using all ```NPUBXY_fk_*.json``` files across all seven train/val split models.
 The output of this process will precisely match the results submitted during the testing phase.
 - Alternatively, you have the option to use the script ```multi_model_predictions_subtraining.py``` to  generate 
