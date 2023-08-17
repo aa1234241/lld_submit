@@ -5,7 +5,7 @@ import numpy as np
 all_exams_path = '/media/userdisk0/code/lld_submit/models/'
 all_exams = os.listdir(all_exams_path)
 
-all_exams = [exam for exam in all_exams if os.path.isdir(os.path.join(all_exams_path, exam)) ]
+all_exams = [exam for exam in all_exams if os.path.isdir(os.path.join(all_exams_path, exam))]
 
 all_predictions = []
 for exam in all_exams:
