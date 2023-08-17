@@ -31,6 +31,14 @@ data_model_labels
   - models (all pretrained models)
 ```
 
+## Installation
+The installation is same as the [baseline](https://github.com/LMMMEng/LLD-MMRI2023/tree/main/main).
+```
+torch==1.13.1
+torchvision==0.14.1
+SimpleITK==2.0.0rc2.dev910+ga138e
+torchio==0.18.91
+```
 ## Inference
 - Our training regimen involves the utilization of seven distinct train/validation split models. For each of these models,
 we select the top five checkpoints based on their F1 and kappa scores. Consequently, a total of 35 models need to be utilized
