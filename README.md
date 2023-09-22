@@ -6,7 +6,7 @@
 - Conduct a visual inspection to ensure the accuracy of all images. Utilize the code in  ```misc/visual_image.py```.
 I have found some cases in the training set are flipped upside down. These misoriented images were subsequently corrected manually.
 - Perform image registration on all eight-phase images. The reference image for registration is the C+pre phase, and all other phases are aligned to this reference. 
-I use [Cross-SAM](https://arxiv.org/pdf/2307.03535.pdf) for registration.
+I use [CrossSAM](https://arxiv.org/pdf/2307.03535.pdf) (code [link](https://github.com/alibaba-damo-academy/self-supervised-anatomical-embedding-v2)) for registration.
 - The registered patches, along with our trained model, have been uploaded via [Baidu Disk](https://pan.baidu.com/s/1WTeRtFqzvSmpHtzoqNzHdQ?pwd=299z)
   (pw:299z).
 

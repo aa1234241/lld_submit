@@ -1,2 +1,7 @@
 models/*
 models.zip
+output/
+main/__pycache__/
+main/datasets/__pycache__/
+main/models/__pycache__/
+
